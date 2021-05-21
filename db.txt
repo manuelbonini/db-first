@@ -1,0 +1,18 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti 
+delle auto usate messe in vendita da un concessionario
+
+Vendita auto
+
+ID - INT - PRIMARY KEY - NOT NULL
+Nome auto - VARCHAR(30) - NOT NULL
+Marca auto - VARCHAR(20) - NOT NULL
+Modello - VARCHAR(20) - NOT NULL
+Km percorsi - MEDIUMINT - NOT NULL
+Data di immatricolazione - DATE - NOT NULL
+Prezzo - FLOAT(10, 2) - NOT NULL
+Cilindrata - SMALLINT
+Alimentazione - VARCHAR(15) - NOT NULL
+Cambio - VARCHAR(15)
+Potenza - SMALLINT
+Posti a sedere - TINYINT
+Trazione - VARCHAR(15)
